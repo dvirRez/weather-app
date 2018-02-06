@@ -1,0 +1,45 @@
+home route:
+------------
+<Home />
+--------------
+
+<Title text />
+
+<ForcastComp />
+
+forcast route:
+--------------
+<Forcast
+	forcastthumbnailCollection
+	address
+
+/ >
+---------------
+
+<AddressWeather
+	getWeatherHandler
+	direction
+	address
+	placeHolder
+
+<DayItem
+	date
+	icon
+/ >
+
+
+details route:
+-------------
+<Details
+	address
+	skyStatus
+	minTemp
+	maxTemp
+	humidity
+
+	detailsArray?
+/ >
+---------------
+
+
+
